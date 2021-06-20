@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root{
+    --color1: #00acac;
+    --fuente1: 5vw;
+    --fuente2: 3vw;
+    --color2: #004e92;
+}
+
 
 h1{
     font-size: 5vw;
@@ -57,6 +64,21 @@ header{
     margin: 2em auto;
 }
 
+.imagen-circulo {
+    max-width:400px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -2em;
+    shape-outside: circle(50%) border-box;
+    shape-margin: 2em;
+}
+
+.imagen-circulo img{
+    display:block;
+    max-width:400px;
+    border-radius: 50%;
+    mix-blend-mode: hard-light;
+}
 
 .img  img{
     height: 100%;
