@@ -9,8 +9,8 @@
 
 
 h1{
-    font-size: 5vw;
-    margin-top: 5vw;
+    font-size: var(--fuente1);
+    margin-top: var(--fuente1);
 }
 
 
@@ -30,7 +30,7 @@ header{
 }
 
 .title h2{
-    font-size: 3vw;
+    font-size: var(--fuente2);
     margin: 1em auto;
     
 }
@@ -46,7 +46,7 @@ header{
 }
 
 .text > p:first-child::first-letter {
-    color: #004e92;
+    color: var(--color2);
     font-size: 12rem;
     line-height: 0.75;
     float: left;
