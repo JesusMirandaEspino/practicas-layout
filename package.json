@@ -1,0 +1,11 @@
+{
+  "name": "practicas-layout",
+  "version": "1.0.0",
+  "description": "Practicas de curso domestila layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus Miranda",
+  "license": "ISC"
+}
